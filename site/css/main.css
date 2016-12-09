@@ -55,8 +55,8 @@ body {
 }
 
 .home_main_backgroundimage {
-    background-image: url(../img/main_start_half.jpg);
-    width: 1349px;
+    background-image: url(../../psd/main_gradient.jpg);
+    width: 1375px;
     height: 800px;
     display: flex;
     flex-direction: row;
@@ -92,6 +92,7 @@ body {
 .firstpage_text{
     font-size: x-large;
     color: white;
+    margin-bottom: 100px;
 }
 
 .release_intro{
@@ -140,6 +141,52 @@ body {
 
 .text{
     color: white;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.site_events{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1349px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+
+.events{
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+    font-size: x-large;
+    color: white;
+
+}
+
+.date{
+    margin-right: 50px;
+}
+
+.sign_up{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.text_square_bottom{
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+.bottom_link{
+    text-decoration: none;
+    color: white;
+}
+
+.spotify_link{
+    color: #1DB954;
     font-family: sans-serif;
     font-size: large;
 }
